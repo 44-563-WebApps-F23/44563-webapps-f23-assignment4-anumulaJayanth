@@ -27,3 +27,34 @@
 .REGINA {
     color: green;
 }
+
+
+
+.Mtable {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.Mtable th, .Mtable td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.Mtable th {
+    background-color: gray;
+}
+
+.Mtable tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.Mtable tbody tr:nth-child(even) {
+    background-color: lightseagreen;
+}
+
+
+.Mtable tbody tr:hover {
+    background-color: burlywood;;
+}
